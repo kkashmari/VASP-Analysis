@@ -2,10 +2,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Load data
-abs_data = np.loadtxt('ABSORPTION_2D.dat')
-ref_data = np.loadtxt('REFLECTION_2D.dat')
-trans_data = np.loadtxt('TRANSMISSION_2D.dat')
-cond_data = np.loadtxt('REAL_OPTICAL_CONDUCTIVITY_2D.dat')
+abs_data = np.loadtxt('Absorption.data')
+ref_data = np.loadtxt('Reflection.data')
+trans_data = np.loadtxt('Transmission.data')
+cond_data = np.loadtxt('Optical_Conductivity.data')
 
 # Extract columns
 E_abs, A = abs_data[:,0], abs_data[:,1]
